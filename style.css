@@ -1,0 +1,182 @@
+body{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.main_image{
+    padding-top: 20px;
+}
+input{
+    border-radius: 100px;
+    border-color: white;
+
+    height: 18%;
+    width: 70%;
+    padding-left: 30px;
+    
+}
+::placeholder{
+    font-size: 20px;
+    align-items: center;
+}
+.search_image{
+    background-image: url("https://static.tacdn.com/img2/brand/home/homemar2022_dt_trans.webp");
+    height: 345px;
+    width: 1130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centainer{
+    display: flex;
+    background-color: aqua disable;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+li>a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+}
+.hover:hover{
+    background-color: rgb(162, 248, 248);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.image_logo{
+    height: 50px;
+    width: 180px;
+}
+.black{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;    
+}
+.black:hover{
+    opacity: 80%;
+}
+.card{
+    height: 270px;
+    width: 275px;
+}
+.search_bar{
+    display: flex;
+    font-family: Arial;
+    flex-wrap: wrap;
+}
+.bar{
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 60px;
+    width: 265px;
+    margin: 3px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;    
+}
+.bar:hover{
+    background-color: black;
+    color: white;
+}
+
+.first_heading , .second_heading{
+    font-family: Arial;
+}
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.link_pic>a{
+    text-decoration: none;
+}
+.picture:hover , .picture2:hover , .picture3:hover , .picture4:hover{
+    opacity: 0.9;
+}
+.picture{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/79/11/8c/caption.jpg?w=300&h=-1&s=1);    
+    height: 270px;
+    width: 270px;
+}
+.picture2{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/79/11/ad/caption.jpg?w=300&h=-1&s=1);
+    height: 270px;
+    width: 270px;
+}
+.picture3{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/79/11/c5/caption.jpg?w=300&h=-1&s=1);
+    height: 270px;
+    width: 270px;
+    
+}
+.picture4{
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/79/11/e8/caption.jpg?w=300&h=-1&s=1);
+    height: 270px;
+    width: 270px;
+    
+}
+
+.name{
+    position: relative;
+    top: 180px;
+    left: 20px;
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: black 20%;
+}
+.name2{
+    position: relative;
+    top: 148px;
+    left: 20px;
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: black 20%;
+}
+
+.city_Container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.part_container{
+    background-color: aquamarine disable;
+    height: 350px;
+    width: 270px;
+    margin-top: 20px;
+    border: 1px solid #ccc disable;
+    margin: 3px 5px;
+}
+.city_image{
+    padding-top: 10px;
+    height: 280px;                      
+    width: 100%;
+}
+.heading , .description{
+    font-size: 16px;
+    font-family: Arial;
+    margin: 8px;
+    margin-left: 0%;
+}
+.description{
+    padding-top: 10px;
+}
+
+
+
+
+
